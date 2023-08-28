@@ -38,7 +38,7 @@
   padding-bottom: 3%;
 }
 
-.listamenu {
+.listaRedes {
   display: flex;
   list-style: none;
   flex-direction: column;
@@ -46,16 +46,45 @@
   padding: 0;
 }
 
-.listamenu li {
+.listaRedes li {
   width: 20%;
 }
 
-.listamenu img {
+.listaRedes img {
   width: 100%;
 }
 
-.listamenu img:hover {
+.listaRedes img:hover {
   opacity: 0.4;
+}
+
+#menu {
+  list-style: none;
+  background-color: #b15d69;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  box-shadow: 1px 1px 10px 1px rgb(198, 79, 79);
+  flex-wrap: wrap;
+}
+
+#menu li {
+  padding: 15px;
+  flex-grow: 1;
+  text-align: center;
+}
+
+#menu li:hover {
+  background-color: #ae4454;
+}
+
+#menu a {
+  text-decoration: none;
+  color: #f1d1d6;
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 #sobre {
@@ -104,7 +133,7 @@
   background-size: 200px;
   display: flex;
   justify-content: center;
-  padding: 30px;
+  padding: 30px 0;
   box-shadow: 1px 1px 10px 1px #dfb4ba;
 }
 
@@ -219,7 +248,7 @@
 form {
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding: 35px 0;
   background-image: url(../../../public/assets/images/rainbow-pink-wallpaper.jpg);
   background-repeat: repeat;
   background-position: center;
@@ -229,7 +258,6 @@ form {
 #formulario {
   background-color: #f0e9e5;
   padding: 20px;
-  margin: 30px;
   border: 2px solid #dc8c98;
   border-radius: 20px;
   box-shadow: 1px 1px 10px 1px #dc8c98;
@@ -319,6 +347,13 @@ footer a {
 footer a:hover {
   color: #b18585;
 }
+html {
+  scroll-behavior: smooth;
+}
+
+:target {
+  scroll-margin-top: 0.8em;
+}
 
 @media only screen and (max-width: 700px) {
   #tituloPrincipal h1 {
@@ -327,7 +362,7 @@ footer a:hover {
     border-radius: 15px;
     line-height: 30px;
   }
-  .listamenu li {
+  .listaRedes li {
     width: 18%;
   }
   .listaDiferenciais h2 {
@@ -361,7 +396,7 @@ footer a:hover {
     font-size: 28px;
     line-height: 20px;
   }
-  .listamenu li {
+  .listaRedes li {
     width: 30%;
   }
   #sobre {

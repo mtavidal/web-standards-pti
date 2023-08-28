@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -8,11 +8,146 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="../../../public/assets/images/favicon.ico" />
 
-    <title>Raíssa Freire - Odontopediatra</title>
+    <title>Dra. Raíssa Freire - Odontopediatra</title>
 </head>
 
 <body>
+    <header role="banner" id="cabecalho">
+        <div id="tituloPrincipal">
+            <img src="../../../public/assets/images/logo.svg" width="100" alt="Logo da Dentista">
+            <h1>Dra. Raíssa Freire </br>Odontopediatra</h1>
+        </div>
+        <nav role="navigation" aria-level="main navigation">
+            <ul role="menu" class="listamenu">
+                <li>
+                    <a href="https://twitter.com" target="_blank" role="menuitem"><img
+                            src="../../../public/assets/images/logo-twitter.png "></a>
+                </li>
+                <li>
+                    <a href="https://facebook.com" target="_blank" role="menuitem"><img
+                            src="../../../public/assets/images/logo-facebook.png"></a>
+                </li>
+                <li>
+                    <a href="https://instagram.com" target="_blank" role="menuitem"><img
+                            src="../../../public/assets/images/logo-instagram.png"></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
+    <main role="main">
+
+        <section>
+            <div id="sobre">
+                <h3 id="textosobre">Sobre mim</h3>
+                <div id="containercards">
+                    <div class="cardsobre">
+                        <img class="imagemCard" src="../../../public/assets/images/raissa.jpg" alt="foto pessoal">
+                        <p>
+                            Natural de Salvador-Ba, sempre sonhou em ser dentista, adora trabalhar com criança. Com
+                            habilidade e empatia, cria laços especiais com seus pequenos pacientes, tornando
+                            cada visita ao consultório uma jornada alegre.
+                        </p>
+                    </div>
+                    <div class="cardsobre">
+                        <img class="imagemCard" src="../../../public/assets/images/faculdade.jpg"
+                            alt="faculdade de odondologia da UFBA">
+                        <p>
+                            Graduada em Odontoliga pela Universidade Federal da Bahia (UFBA), possui Mestrado e
+                            Doutorado em Odontopediatria pela Universidade Estadual do Rio de Janeiro (UERJ) e realizou
+                            especilização na Associação Brasileira de Odontologia (ABO).
+                        </p>
+                    </div>
+                    <div class="cardsobre">
+                        <img class="imagemCard" src="../../../public/assets/images/hobbies.avif" alt="foto pessoal">
+                        <p>
+                            Apaixodade por crianças e animais, nas horas vagas, gosta de faze exercícios, ouvir música,
+                            ler livro, tirar fotos, assistir séries e fazer compras.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="diferenciais">
+                <ul class="listaDiferenciais">
+                    <h2>Diferenciais no atendimento</h2>
+                    <li>
+                        <img src="../../../public/assets/images/diferencial1.jpg"
+                            alt="consultório odontológico infantil">
+                        <p>Consultório temático para os pequenos</p>
+
+                    </li>
+                    <li>
+                        <img src="../../../public/assets/images/diferencial2.jpg"
+                            alt="Atendimento odontológico com oxido nitroso">
+                        <p>Sedação consciente com óxido nitroso</p>
+                    </li>
+                    <li>
+                        <img src="../../../public/assets/images/diferencial3.jpg">
+                        <p>Atividades lúdicas para aprendizado da escovação</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div id="tituloDepoimentos">
+                <h2>Veja o que os pacientes estão falando:</h2>
+            </div>
+            <div id="depoimentos">
+                <div class="depo">
+                    <img src="../../../public/assets/images/paciente1.png" width="200px" alt="cliente1">
+                    <div class="aspas">
+                        <img class="asp1" src="../../../public/assets/images/abreaspas.png" width="20px">
+                        <p>Tia Rai é muito legal! Foi rápido e não dói nada!</p>
+                        <img class="asp2" src="../../../public/assets/images/fechaaspas.png" width="20px">
+                    </div>
+                    <h4>Bless</h4>
+                </div>
+                <div class="depo">
+                    <img src="../../../public/assets/images/paciente2.png" width="230px" alt="cliente2">
+                    <div class="aspas">
+                        <img class="asp1" src="../../../public/assets/images/abreaspas.png" width="20px">
+                        <p>O consultório é lindo demais. Amamos!</p>
+                        <img class="asp2" src="../../../public/assets/images/fechaaspas.png" width="20px">
+                    </div>
+                    <h4>Sandy e Junior</h4>
+                </div>
+                <div class="depo">
+                    <img src="../../../public/assets/images/paciente3.png" width="200px" alt="cliente3">
+                    <div class="aspas">
+                        <img class="asp1" src="../../../public/assets/images/abreaspas.png" width="20px">
+                        <p>Fiquei com os dentes limpinhos e brinquei de dentista!</p>
+                        <img class="asp2" src="../../../public/assets/images/fechaaspas.png" width="20px">
+                    </div>
+                    <h4>Larissa Manoela</h4>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <div id="tituloContato">
+                    <h2>Entre em contato conosco!</h2>
+                </div>
+                <form action="./index.html">
+                    <div id="formulario">
+                        <label for="nome">Nome completo:</label>
+                        <input type="text" id="nome">
+                        <label for="senha">Crie uma senha:</label>
+                        <input type="password" id="senha">
+                        <label for="confirmasenha">Confirme sua senha:</label>
+                        <input type="password" id="confirmasenha">
+                        <label for="email">Email:</label>
+                        <input type="text" id="email">
+                        <button type="button" id="btnCadastrar">Cadastrar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por <a href="https://github.com/mtavidal" target="_blank"> Manuela Vidal </a></p>
+    </footer>
 </body>
 
 </html>

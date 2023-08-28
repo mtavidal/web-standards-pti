@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&family=Patrick+Hand+SC&display=swap');
+
+#cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(../../../public/assets/images/rainbow-pink-wallpaper.jpg);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: 200px;
+  padding: 3%;
+  box-shadow: 1px 1px 20px 1px #dc8c98;
+}
+
+#tituloPrincipal {
+  background-color: #dc8c98;
+  border-radius: 30px;
+  box-shadow: 1px 1px 10px 1px rgb(198, 79, 79);
+  font-size: 25px;
+  padding: 2%;
+  width: 40%;
+  min-width: 290px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+#tituloPrincipal h1 {
+  font-size: 45px;
+  font-family: 'Patrick Hand SC', cursive;
+  color: rgb(255, 255, 255);
+  line-height: 35px;
+  text-align: center;
+  margin: 0;
+  align-self: center;
+}
+#tituloPrincipal img {
+  width: 30%;
+  padding-bottom: 3%;
+}
+
+.listamenu {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  align-items: end;
+  padding: 0;
+}
+
+.listamenu li {
+  width: 20%;
+}
+
+.listamenu img {
+  width: 100%;
+}
+
+.listamenu img:hover {
+  opacity: 0.4;
+}
+
+#sobre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #dc8c98;
+  box-shadow: 1px 1px 10px 1px#dc8c98;
+  padding-bottom: 30px;
+}
+
+#textosobre {
+  color: #f0e9e5;
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 45px;
+  text-align: center;
+  margin: 10px;
+}
+
+#containercards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+  width: 90%;
+}
+
+.cardsobre {
+  background-color: #f0e9e5;
+  width: 300px;
+  margin: 1%;
+  box-shadow: 1px 1px 10px 1px #dfb4ba;
+  border-radius: 5px;
+  padding: 1%;
+  font-family: 'Jaldi', cursive;
+  text-align: center;
+}
+.imagemCard {
+  width: 100%;
+}
+
+#diferenciais {
+  background-image: url(../../../public/assets/images/rainbow-pink-wallpaper.jpg);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: 200px;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  box-shadow: 1px 1px 10px 1px #dfb4ba;
+}
+
+.listaDiferenciais {
+  background-color: #f0e9e5;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 30px;
+  border: 2px solid #dc8c98;
+  color: #dc8c98;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px 1px #dfb4ba;
+  max-width: 700px;
+  text-align: center;
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 30px;
+}
+
+.listaDiferenciais li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+}
+
+.listaDiferenciais li img {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 30px;
+  width: 200px;
+  box-shadow: 1px 1px 10px 1px #dc8c98;
+  border-radius: 100%;
+}
+
+#tituloDepoimentos,
+#tituloContato {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+  background-color: #dc8c98;
+  box-shadow: 1px 1px 10px 1px #dfb4ba;
+  font-family: 'Patrick Hand SC', cursive;
+  font-weight: bolder;
+  font-size: 30px;
+  color: #f7f7f7;
+}
+
+#depoimentos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: center;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-image: url(../../../public/assets/images/rainbow-pink-wallpaper.jpg);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: 200px;
+  box-shadow: 1px 1px 10px 1px #dfb4ba;
+}
+
+.depo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0e5e9;
+  padding: 2%;
+  margin: 20px;
+  border: 2px solid #dc8c98;
+  border-radius: 20px;
+  font-size: 25px;
+  box-shadow: 1px 1px 10px 1px #dc8c98;
+  font-weight: bolder;
+  font-family: 'Jaldi', cursive;
+  color: #c66775;
+}
+
+.aspas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.asp1 {
+  align-self: flex-start;
+}
+
+.asp2 {
+  align-self: flex-end;
+}
+
+.aspas p {
+  max-width: 200px;
+  line-height: 28px;
+}
+
+.depo h4 {
+  color: #dc8c98;
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 28px;
+  margin-bottom: 0;
+  margin-top: 10px;
+  margin-right: 25px;
+  align-self: flex-end;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-image: url(../../../public/assets/images/rainbow-pink-wallpaper.jpg);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: 200px;
+}
+
+#formulario {
+  background-color: #f0e9e5;
+  padding: 20px;
+  margin: 30px;
+  border: 2px solid #dc8c98;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px 1px #dc8c98;
+  display: grid;
+  justify-content: center;
+  justify-items: flex-start;
+  font-family: 'Jaldi', sans-serif;
+  font-size: 25px;
+  margin: 5px;
+  color: #aa3c3c;
+}
+
+label {
+  margin-top: 15px;
+}
+
+input {
+  width: 500px;
+  font-family: 'Jaldi', sans-serif;
+  font-size: 18px;
+  padding: 0 5px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #aa3c3c;
+  outline: none;
+  color: rgb(85, 72, 72);
+}
+
+input:focus {
+  border-bottom: 2px solid #864848;
+  box-shadow: 1px rgb(109, 7, 27);
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #f0e9e5 inset;
+}
+
+button {
+  justify-self: center;
+  width: 70%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-family: 'Patrick Hand SC', cursive;
+  font-weight: bolder;
+  color: #dc8c98;
+  background-color: #fbf2ed;
+  border: 2px solid #dc8c98;
+  box-shadow: 1px 1px 10px 1px rgb(236, 203, 203);
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: rgb(224, 192, 192);
+}
+
+footer {
+  background-color: #dc8c98;
+  box-shadow: 1px 1px 10px 1px#dc8c98;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 30px;
+  color: #f7f7f7;
+}
+
+footer a {
+  color: #e3c9c9;
+}
+
+footer a:hover {
+  color: #b18585;
+}
+
+@media only screen and (max-width: 700px) {
+  #tituloPrincipal h1 {
+    font-size: 28px;
+    margin-left: 15px;
+    border-radius: 15px;
+    line-height: 30px;
+  }
+  .listamenu li {
+    width: 18%;
+  }
+  .listaDiferenciais h2 {
+    font-size: 35px;
+  }
+
+  .listaDiferenciais h2 {
+    font-size: 35px;
+  }
+  .listaDiferenciais li {
+    font-size: 25px;
+  }
+  .listaDiferenciais li img {
+    width: 130px;
+    margin: 0;
+  }
+  #formulario {
+    width: 90%;
+  }
+
+  input {
+    width: 350px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  #tituloPrincipal {
+    min-width: 200px;
+  }
+  #tituloPrincipal h1 {
+    font-size: 28px;
+    line-height: 20px;
+  }
+  .listamenu li {
+    width: 30%;
+  }
+  #sobre {
+    padding: 0px;
+    padding-bottom: 40px;
+  }
+
+  #textosobre {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .listaDiferenciais {
+    width: 90%;
+  }
+
+  .listaDiferenciais h2 {
+    font-size: 35px;
+    line-height: 30px;
+  }
+
+  .listaDiferenciais li {
+    font-size: 16px;
+    margin-left: 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .listaDiferenciais p {
+    margin: 0;
+    padding-bottom: 30px;
+  }
+
+  .depo p {
+    font-size: 20px;
+  }
+
+  #formulario {
+    padding: 10px;
+    margin: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  input {
+    width: 250px;
+    font-size: 18px;
+  }
+
+  #tituloDepoimentos,
+  #tituloContato {
+    padding: 20px;
+    font-size: 20px;
+  }
+  #titulocampos {
+    font-size: 23px;
+  }
+}

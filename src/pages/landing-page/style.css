@@ -257,9 +257,25 @@ input {
   outline: none;
   color: rgb(85, 72, 72);
 }
+textarea {
+  width: 500px;
+  height: 200px;
+  font-family: 'Jaldi', sans-serif;
+  font-size: 18px;
+  padding: 0 5px;
+  background-color: transparent;
+  border: none;
+  border: 1px solid #aa3c3c;
+  outline: none;
+  color: rgb(85, 72, 72);
+}
 
 input:focus {
   border-bottom: 2px solid #864848;
+  box-shadow: 1px rgb(109, 7, 27);
+}
+textarea:focus {
+  border: 2px solid #864848;
   box-shadow: 1px rgb(109, 7, 27);
 }
 
@@ -332,7 +348,8 @@ footer a:hover {
     width: 90%;
   }
 
-  input {
+  input,
+  textarea {
     width: 350px;
   }
 }
@@ -392,7 +409,8 @@ footer a:hover {
     font-size: 18px;
   }
 
-  input {
+  input,
+  textarea {
     width: 250px;
     font-size: 18px;
   }

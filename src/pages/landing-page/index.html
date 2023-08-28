@@ -132,14 +132,12 @@
                 <form action="./index.html">
                     <div id="formulario">
                         <label for="nome">Nome completo:</label>
-                        <input type="text" id="nome">
-                        <label for="senha">Crie uma senha:</label>
-                        <input type="password" id="senha">
-                        <label for="confirmasenha">Confirme sua senha:</label>
-                        <input type="password" id="confirmasenha">
+                        <input type="text" id="nome" required>
                         <label for="email">Email:</label>
-                        <input type="text" id="email">
-                        <button type="button" id="btnCadastrar">Cadastrar</button>
+                        <input type="email" id="email" required>
+                        <label for="mensagem">Deixe sua mensagem:</label>
+                        <textarea id="mensagem" required></textarea>
+                        <button type="submit" id="btnEnviar">Cadastrar</button>
                     </div>
                 </form>
             </div>

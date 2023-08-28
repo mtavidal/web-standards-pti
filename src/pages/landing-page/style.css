@@ -71,7 +71,6 @@
 
 #menu li {
   padding: 15px;
-  flex-grow: 1;
   text-align: center;
 }
 
@@ -80,6 +79,7 @@
 }
 
 #menu a {
+  flex-grow: 1;
   text-decoration: none;
   color: #f1d1d6;
   font-family: 'Patrick Hand SC', cursive;

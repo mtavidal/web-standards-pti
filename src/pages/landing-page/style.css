@@ -122,6 +122,7 @@
   padding: 1%;
   font-family: 'Jaldi', cursive;
   text-align: center;
+  color: #aa3c3c;
 }
 .imagemCard {
   width: 100%;
@@ -344,7 +345,8 @@ footer {
 
 footer div {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  gap: 20px;
   flex-wrap: wrap;
 }
 footer a {

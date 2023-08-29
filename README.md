@@ -29,9 +29,9 @@ Foi desenvolvida uma landing page para uma dentista especialista no atendimento 
 
 ## 🔗 Link para o site
 
-Usamos a Netlify para hospedar a aplicação.
+Foi usada a Netlify para hospedar a aplicação.
 
--> Link para o site da landing page Odontopediatra | Raíssa Freire https://main--preeminent-manatee-675e40.netlify.app/
+-> [Link para o site da landing page Odontopediatra | Raíssa Freire](https://main--preeminent-manatee-675e40.netlify.app)
 
 ## 💻 Tecnologias utilizadas
 

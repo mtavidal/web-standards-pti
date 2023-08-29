@@ -1,4 +1,4 @@
 [[redirects]]
-from = "/"
+from = "/*"
 to = "/src/pages/landing-page/index.html"
 

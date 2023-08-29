@@ -85,6 +85,7 @@
   font-family: 'Patrick Hand SC', cursive;
   font-size: 25px;
   font-weight: bold;
+  border-left: 3px solid #dc8c98;
 }
 
 #sobre {
@@ -253,6 +254,7 @@ form {
   background-repeat: repeat;
   background-position: center;
   background-size: 200px;
+  box-shadow: 1px 1px 10px 1px #dfb4ba;
 }
 
 #formulario {
@@ -333,15 +335,23 @@ button:hover {
 footer {
   background-color: #dc8c98;
   box-shadow: 1px 1px 10px 1px#dc8c98;
-  padding: 20px;
   text-align: center;
   font-family: 'Patrick Hand SC', cursive;
-  font-size: 30px;
+  font-size: 20px;
+  padding: 10px;
   color: #f7f7f7;
 }
 
+footer div {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
 footer a {
   color: #e3c9c9;
+}
+#desenv {
+  margin: 0;
 }
 
 footer a:hover {

@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&family=Patrick+Hand+SC&display=swap');
 
+body {
+  margin: 5px;
+}
+
 #cabecalho {
   display: flex;
   align-items: center;
@@ -16,26 +20,26 @@
   background-color: #dc8c98;
   border-radius: 30px;
   box-shadow: 1px 1px 10px 1px rgb(198, 79, 79);
-  font-size: 25px;
   padding: 2%;
-  width: 40%;
+  width: 50%;
   min-width: 290px;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+
 #tituloPrincipal h1 {
   font-size: 45px;
   font-family: 'Patrick Hand SC', cursive;
   color: rgb(255, 255, 255);
-  line-height: 35px;
+  line-height: 45px;
   text-align: center;
-  margin: 0;
   align-self: center;
 }
+
 #tituloPrincipal img {
   width: 30%;
-  padding-bottom: 3%;
+  padding: 3%;
 }
 
 .listaRedes {
@@ -43,7 +47,6 @@
   list-style: none;
   flex-direction: column;
   align-items: end;
-  padding: 0;
 }
 
 .listaRedes li {
@@ -63,8 +66,6 @@
   background-color: #b15d69;
   display: flex;
   justify-content: space-around;
-  margin: 0;
-  padding: 0;
   box-shadow: 1px 1px 10px 1px rgb(198, 79, 79);
   flex-wrap: wrap;
 }
@@ -74,10 +75,6 @@
   text-align: center;
 }
 
-#menu li:hover {
-  background-color: #ae4454;
-}
-
 #menu a {
   flex-grow: 1;
   text-decoration: none;
@@ -85,7 +82,13 @@
   font-family: 'Patrick Hand SC', cursive;
   font-size: 25px;
   font-weight: bold;
-  border-left: 3px solid #dc8c98;
+  border-left: 1px solid #dc8c98;
+  border-right: 1px solid #dc8c98;
+  border-top: 2px solid #dc8c98;
+}
+
+#menu a:hover {
+  background-color: #ae4454;
 }
 
 #sobre {
@@ -102,7 +105,7 @@
   font-family: 'Patrick Hand SC', cursive;
   font-size: 45px;
   text-align: center;
-  margin: 10px;
+  margin: 20px;
 }
 
 #containercards {
@@ -116,15 +119,15 @@
 .cardsobre {
   background-color: #f0e9e5;
   width: 300px;
-  margin: 1%;
+  margin: 10px;
   box-shadow: 1px 1px 10px 1px #dfb4ba;
   border-radius: 5px;
-  padding: 1%;
+  padding: 10px;
   font-family: 'Jaldi', cursive;
   text-align: center;
   color: #aa3c3c;
 }
-.imagemCard {
+.cardsobre img {
   width: 100%;
 }
 
@@ -141,9 +144,7 @@
 
 .listaDiferenciais {
   background-color: #f0e9e5;
-  padding: 20px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding: 30px;
   margin: 30px;
   border: 2px solid #dc8c98;
   color: #dc8c98;
@@ -154,6 +155,9 @@
   font-family: 'Patrick Hand SC', cursive;
   font-size: 30px;
 }
+.listaDiferenciais h2 {
+  padding-bottom: 20px;
+}
 
 .listaDiferenciais li {
   list-style: none;
@@ -163,9 +167,7 @@
 }
 
 .listaDiferenciais li img {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  margin-right: 30px;
+  margin: 15px 30px;
   width: 200px;
   box-shadow: 1px 1px 10px 1px #dc8c98;
   border-radius: 100%;
@@ -192,8 +194,7 @@
   align-items: stretch;
   align-content: center;
   text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px 0;
   background-image: url(../../../public/assets/images/rainbow-pink-wallpaper.jpg);
   background-repeat: repeat;
   background-position: center;
@@ -201,13 +202,13 @@
   box-shadow: 1px 1px 10px 1px #dfb4ba;
 }
 
-.depo {
+.cardDepoimentos {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: #f0e5e9;
-  padding: 2%;
+  padding: 10px;
   margin: 20px;
   border: 2px solid #dc8c98;
   border-radius: 20px;
@@ -218,7 +219,7 @@
   color: #c66775;
 }
 
-.aspas {
+.textoDepoimento {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -234,16 +235,16 @@
   width: 20px;
 }
 
-.aspas p {
+.textoDepoimento p {
   max-width: 200px;
   line-height: 28px;
+  margin-top: 10px;
 }
 
-.depo h4 {
-  color: #dc8c98;
+.cardDepoimentos h4 {
+  color: #c07883;
   font-family: 'Patrick Hand SC', cursive;
   font-size: 28px;
-  margin-bottom: 0;
   margin-top: 10px;
   margin-right: 25px;
   align-self: flex-end;
@@ -341,25 +342,27 @@ footer {
   text-align: center;
   font-family: 'Patrick Hand SC', cursive;
   font-size: 20px;
-  padding: 10px;
+  padding: 20px;
   color: #f7f7f7;
 }
 
 footer div {
   display: flex;
   justify-content: space-around;
-  gap: 20px;
+  gap: 10px;
   flex-wrap: wrap;
 }
 footer a {
   color: #e3c9c9;
 }
-#desenv {
-  margin: 0;
-}
 
 footer a:hover {
   color: #b18585;
+}
+#endereco {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
 }
 html {
   scroll-behavior: smooth;
@@ -370,57 +373,59 @@ html {
 }
 
 @media only screen and (max-width: 700px) {
+  #tituloPrincipal {
+    min-width: 340px;
+  }
+
   #tituloPrincipal h1 {
-    font-size: 28px;
-    margin-left: 15px;
+    font-size: 35px;
     border-radius: 15px;
     line-height: 30px;
   }
+
   .listaRedes li {
-    width: 18%;
-  }
-  .listaDiferenciais h2 {
-    font-size: 35px;
+    width: 50px;
   }
 
   .listaDiferenciais h2 {
     font-size: 35px;
   }
+
   .listaDiferenciais li {
     font-size: 25px;
   }
+
   .listaDiferenciais li img {
     width: 130px;
-    margin: 0;
   }
+
   #formulario {
     width: 90%;
   }
 
   input,
   textarea {
-    width: 350px;
+    width: 400px;
   }
 }
 @media only screen and (max-width: 480px) {
   #tituloPrincipal {
-    min-width: 200px;
+    width: 70%;
+    min-width: 210px;
   }
   #tituloPrincipal h1 {
-    font-size: 28px;
-    line-height: 20px;
+    font-size: 30px;
+    line-height: 25px;
   }
   .listaRedes li {
-    width: 30%;
+    width: 40px;
   }
   #sobre {
-    padding: 0px;
     padding-bottom: 40px;
   }
 
   #textosobre {
     font-size: 28px;
-    text-align: center;
   }
 
   .listaDiferenciais {
@@ -433,34 +438,26 @@ html {
   }
 
   .listaDiferenciais li {
-    font-size: 16px;
-    margin-left: 0px;
+    font-size: 25px;
     flex-wrap: wrap;
     justify-content: center;
   }
 
-  .listaDiferenciais p {
-    margin: 0;
-    padding-bottom: 30px;
-  }
-
-  .depo p {
+  .cardDepoimentos p {
     font-size: 20px;
   }
 
   #formulario {
-    padding: 10px;
-    margin: 3px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
   }
 
   input,
   textarea {
-    width: 250px;
+    width: 220px;
     font-size: 18px;
   }
 
@@ -469,7 +466,9 @@ html {
     padding: 20px;
     font-size: 20px;
   }
-  #titulocampos {
-    font-size: 23px;
+  #endereco {
+    border-top: 1px solid rgb(250, 228, 228);
+    border-bottom: 1px solid rgb(250, 228, 228);
+    margin: 10px 0;
   }
 }

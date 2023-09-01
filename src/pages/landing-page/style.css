@@ -8,7 +8,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-image: url(../../../public/assets/images/rainbow-pink-wallpaper.jpg);
+  background-image: url(/public/assets/images/rainbow-pink-wallpaper.jpg);
   background-repeat: repeat;
   background-position: center;
   background-size: 200px;
@@ -132,7 +132,7 @@ body {
 }
 
 #diferenciais {
-  background-image: url(../../../public/assets/images/rainbow-pink-wallpaper.jpg);
+  background-image: url(/public/assets/images/rainbow-pink-wallpaper.jpg);
   background-repeat: repeat;
   background-position: center;
   background-size: 200px;
@@ -195,7 +195,7 @@ body {
   align-content: center;
   text-align: center;
   padding: 30px 0;
-  background-image: url(../../../public/assets/images/rainbow-pink-wallpaper.jpg);
+  background-image: url(/public/assets/images/rainbow-pink-wallpaper.jpg);
   background-repeat: repeat;
   background-position: center;
   background-size: 200px;
@@ -254,7 +254,7 @@ form {
   display: flex;
   justify-content: center;
   padding: 35px 0;
-  background-image: url(../../../public/assets/images/rainbow-pink-wallpaper.jpg);
+  background-image: url(/public/assets/images/rainbow-pink-wallpaper.jpg);
   background-repeat: repeat;
   background-position: center;
   background-size: 200px;
